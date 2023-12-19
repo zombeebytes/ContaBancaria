@@ -20,6 +20,18 @@ public class Menu {
 		String titular;
 		float saldo, limite;
 
+		System.out.println("\n Criar Contas\n");
+		ContaCorrente cc1 = new ContaCorrente(contas.gerarNumero(), 123, 1, "Maria das Dores", 1000f, 100.0f);
+		contas.cadastrar(cc1);
+		ContaCorrente cc2 = new ContaCorrente(contas.gerarNumero(), 124, 1, "João das Neves", 2000f, 100.0f);
+		contas.cadastrar(cc2);
+		ContaPoupanca cp1 = new ContaPoupanca(contas.gerarNumero(), 125, 1, "Reginaldo Rossi", 5000f, 29);
+		contas.cadastrar(cp1);
+		ContaPoupanca cp2 = new ContaPoupanca(contas.gerarNumero(), 126, 1, "Alberto da Silva", 25000f, 18);
+		contas.cadastrar(cp2);
+		
+		contas.listarTodas();
+
 		while (true) {
 
 			System.out.println(Cores.TEXT_YELLOW + Cores.ANSI_BLACK_BACKGROUND);
