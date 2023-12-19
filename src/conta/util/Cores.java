@@ -1,6 +1,7 @@
 package conta.util;
 
 public class Cores {
+	
 
 	        public static final String TEXT_RESET = "\u001B[0m";
 	        //Text Color

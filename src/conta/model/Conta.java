@@ -43,6 +43,7 @@ import conta.util.Cores;
 	public void setTitular(String titular) {
 		this.titular = titular;
 	}
+	
 	public float getSaldo() {
 		return saldo;
 	}

@@ -53,6 +53,7 @@ public class ContaController implements ContaRepository {
 	}
 	public int gerarNumero() {
 		return ++ numero;
+		
 	}
 	
 	}
